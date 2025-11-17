@@ -274,14 +274,21 @@
       display: flex;
       flex-direction: column;
       gap: 0.6rem;
+      margin-top: 1rem;
+    }
+
+    .contact-item {
+      padding: 0.7rem 0.9rem;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      font-weight: 600;
+      color: var(--muted);
     }
 
     .contact-item a {
-      display: inline-block;
-      padding: 0.5rem 0.6rem;
-      border-radius: 8px;
-      background: rgba(255, 255, 255, 0.01);
       font-weight: 600;
+      display: inline-block;
     }
 
     /* CSS:CONTACT-END */
@@ -451,18 +458,21 @@
       <!-- SECTION:CONTACT-START -->
       <section id="contact" class="section section-contact" aria-labelledby="contact-heading">
         <div class="container">
-          <h2 id="contact-heading" class="section-title">聯絡我（之後會用 Section SDD 替換）</h2>
-          <p class="muted">
-            這裡目前是 Contact 區的占位內容。
-          </p>
+          <h2 id="contact-heading" class="section-title">聯絡我</h2>
 
           <div class="contact-list">
-            <div class="contact-item"><a href="mailto:hello@example.com">hello@example.com</a></div>
-            <div class="contact-item"><a href="tel:+886900000000">+886 900 000 000</a></div>
-            <div class="contact-item"><a href="https://github.com/yourname" target="_blank"
-                rel="noopener noreferrer">GitHub / yourname</a></div>
-            <div class="contact-item"><a href="https://www.linkedin.com/in/yourname" target="_blank"
-                rel="noopener noreferrer">LinkedIn / yourname</a></div>
+            <div class="contact-item">
+              📧 Email：
+              <a href="mailto:sundial.chiu@gmail.com">sundial.chiu@gmail.com</a>
+            </div>
+
+            <div class="contact-item">
+              🐙 GitHub：
+              <a href="https://github.com/SamanthaYu0611" target="_blank" rel="noopener noreferrer">
+                github.com/SamanthaYu0611
+              </a>
+            </div>
+
           </div>
         </div>
       </section>
